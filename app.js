@@ -25,5 +25,6 @@ app.use(
         tempFileDir: '/tmp/',
     })
 )
+app.use("/api/v1/messages", messageRouter)
 
 export default app
